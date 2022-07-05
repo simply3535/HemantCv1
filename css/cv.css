@@ -1,0 +1,256 @@
+/* main-box */
+/* logo and name */
+.img-logo {
+    margin-bottom: -2000px;
+    z-index: 1;
+}
+
+.title-name {
+    font-size: 90px;
+    margin-top: 100px;
+    margin-left: 450px;
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-headline {
+
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 455px;
+    font-size: 45px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.logo {
+    width: 100%;
+    margin-left: 26px;
+}
+
+/* BOX LEFT */
+.boxl {
+    background-color: #e4e3e3af;
+    padding-top: 400px;
+    height: 1300px;
+    padding-bottom: 20px;
+
+}
+
+.btn-inf {
+    background-color: #ff9c01;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-weight: bold;
+    text-align: right;
+    padding: 5px 30px 5px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boxl li {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+/* BOX RIGHT */
+.boxr {
+    background-color: #2a2a2c;
+    padding-top: 400px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    height: 1300px;
+}
+
+@media screen and (max-width: 991px) {
+    .boxr {
+        padding-top: 10px;
+        height: auto;
+    }
+
+    .boxl {
+        height: auto;
+        padding-top:250px ;
+    }
+
+    .title-name {
+        font-size: 55px;
+        margin-top: 65px;
+        margin-left: 290px;
+    }
+
+    .profile-headline {
+        margin-top: 130px;
+        margin-left: 292px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1199px) {
+    .title-name {
+        font-size: 70px;
+        margin-top: 78px;
+        margin-left: 380px;
+    }
+
+    .profile-headline {
+        margin-top: 160px;
+        margin-left: 385px;
+        font-size: 35px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .title-name {
+        font-size: 46px;
+        margin-top: 60px;
+        margin-left: 300px;
+    }
+
+    .profile-headline {
+        margin-top: 120px;
+        margin-left: 300px;
+        font-size: 25px;
+
+    }
+}
+
+@media(max-width:677px) 
+{
+    .title-name {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-left:230px;
+        
+    }
+    .logo {
+        width: 100%;
+        margin:auto;
+    }
+
+    .profile-headline {
+        margin-top: 100px;
+        margin-left: 235px;
+        font-size: 25px;
+
+    }
+    .boxl{padding-top:250px;}
+}
+@media(max-width:376px){
+    .title-name {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left:110px;
+        
+    }
+    .profile-headline {
+        margin-top: 55px;
+        margin-left: 115px;
+        font-size: 15px;
+
+    }
+    .boxl{padding-top:120px;}
+}
+
+.heading-box {
+    background-color: #2a2a2c;
+    text-align: center;
+    width: 90%;
+    padding: 5px;
+    margin: 30px auto;
+    border: 2px solid #ff9c01;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 240PX;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bold-text {
+
+    font-size: 15px;
+    border-bottom: 2px solid salmon;
+
+
+}
+
+.grid-item p {
+    margin-top: 5px;
+}
+
+.grid-item p a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+/* box right heading icon */
+.heading-icon {
+    text-align: center;
+    margin: auto;
+}
+
+.heading-icon i {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* pro-skills-list */
+.proskil-text {
+    text-align: center;
+    margin: 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* process bar */
+.bar {
+    border: 1px solid #e4e3e3af;
+    border-radius: 5px;
+    width: 200px;
+    height: 26px;
+    margin: auto;
+
+}
+
+/* process bar */
+.bar-fill {
+    height: 24px;
+    background-color: #ff9c01;
+    width: 85%;
+}
+
+#bar1 {
+    width: 95%;
+}
+
+/* social-site-are */
+.hr1 {
+    margin-top: 90px;
+    border: 1px solid aliceblue;
+    width: 90%;
+}
+
+.social-site {
+    text-align: center;
+}
+
+.social-site a i {
+    padding: 0px 10px;
+    font-size: 35px;
+}
+
+.social-site a {
+    color: #ffffff;
+}
+
+.social-site i:hover {
+    color: #ff9c01;
+    transition: 1s;
+    transform: scale(1.2);
+}

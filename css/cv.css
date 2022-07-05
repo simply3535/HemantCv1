@@ -72,7 +72,7 @@
 
     .boxl {
         height: auto;
-        padding-top:250px ;
+        padding-top: 250px;
     }
 
     .title-name {
@@ -118,17 +118,17 @@
     }
 }
 
-@media(max-width:677px) 
-{
+@media(max-width:677px) {
     .title-name {
         font-size: 40px;
         margin-top: 50px;
-        margin-left:230px;
-        
+        margin-left: 230px;
+
     }
+
     .logo {
         width: 100%;
-        margin:auto;
+        margin: auto;
     }
 
     .profile-headline {
@@ -137,22 +137,54 @@
         font-size: 25px;
 
     }
-    .boxl{padding-top:250px;}
+
+    .boxl {
+        padding-top: 250px;
+    }
 }
-@media(max-width:376px){
+
+@media(max-width:446px) {
+    .hr1{margin-top:5px;}
+    .boxl li {
+        font-family: 'Times New Roman', Times, serif;
+        font-size:10px;
+    }
+    
+    .boxl {
+        padding-top: 120px;
+    }
     .title-name {
         font-size: 25px;
         margin-top: 25px;
-        margin-left:110px;
-        
+        margin-left: 130px;
+
+    }
+    .grid-container{padding-top:0px;}
+    .btn-inf {
+        width: 100%;
+        font-size:15px;
+        font-weight: bold;
+        text-align:center;
+        padding: 5px;
+        margin-top:10px;
+        margin-bottom:10px;
+        }
+    .heading-box{
+        width: 50%;
+    padding: 5px;
+    margin:0px;
+    font-size:15px;
     }
     .profile-headline {
         margin-top: 55px;
-        margin-left: 115px;
+        margin-left: 130px;
         font-size: 15px;
 
     }
-    .boxl{padding-top:120px;}
+    
+
+   
+    
 }
 
 .heading-box {
@@ -222,11 +254,11 @@
 .bar-fill {
     height: 24px;
     background-color: #ff9c01;
-    width: 85%;
+    width: 150px;
 }
 
 #bar1 {
-    width: 95%;
+    width: 170px;
 }
 
 /* social-site-are */
